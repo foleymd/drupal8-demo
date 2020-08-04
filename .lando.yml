@@ -1,0 +1,6 @@
+name: texas-plants
+recipe: pantheon
+config:
+  framework: drupal8
+  site: texas-plants
+  id: bec8a22d-02cb-4df9-acf7-92a119085525
