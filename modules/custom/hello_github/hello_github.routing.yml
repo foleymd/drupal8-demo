@@ -1,7 +1,7 @@
 hello.content:
-  path: '/hello'
+  path: '/hello-github'
   defaults:
     _controller: '\Drupal\hello_github\Controller\HelloController::content'
-    _title: 'Hello World'
+    _title: 'Hello Github'
   requirements:
     _permission: 'access content'
