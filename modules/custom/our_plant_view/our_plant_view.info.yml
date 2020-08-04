@@ -1,0 +1,6 @@
+name: Our Plant View  
+description: Creates a custom view of our plants.
+package: Custom
+type: module
+version: 1.0
+core: 8.x
