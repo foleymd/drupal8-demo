@@ -1,0 +1,30 @@
+uuid: f7bbbd3a-c3cb-41b6-aa09-8900dd827879
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.plants
+  module:
+    - system
+    - views
+  theme:
+    - texas_plants
+id: views_block__plants_block_2
+theme: texas_plants
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:plants-block_2'
+settings:
+  id: 'views_block:plants-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/2
+    negate: false
+    context_mapping: {  }

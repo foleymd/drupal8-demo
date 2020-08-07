@@ -1,0 +1,20 @@
+uuid: 9342e763-5afc-4901-a008-e23397b666a2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - texas_plants
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: texas_plants_local_actions
+theme: texas_plants
+region: header
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
