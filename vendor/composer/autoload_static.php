@@ -85,7 +85,6 @@ class ComposerStaticInita92463187cbc76d546fa0dc2a6becf75
         ),
         'L' => 
         array (
-            'League\\Csv\\' => 11,
             'Laminas\\ZendFrameworkBridge\\' => 28,
             'Laminas\\Stdlib\\' => 15,
             'Laminas\\Feed\\' => 13,
@@ -104,7 +103,6 @@ class ComposerStaticInita92463187cbc76d546fa0dc2a6becf75
         ),
         'D' => 
         array (
-            'Drupal\\csv_importer\\' => 20,
             'Drupal\\Driver\\' => 14,
             'Drupal\\Core\\' => 12,
             'Drupal\\Composer\\Plugin\\VendorHardening\\' => 39,
@@ -253,10 +251,6 @@ class ComposerStaticInita92463187cbc76d546fa0dc2a6becf75
         array (
             0 => __DIR__ . '/..' . '/masterminds/html5/src',
         ),
-        'League\\Csv\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/league/csv/src',
-        ),
         'Laminas\\ZendFrameworkBridge\\' => 
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-zendframework-bridge/src',
@@ -292,10 +286,6 @@ class ComposerStaticInita92463187cbc76d546fa0dc2a6becf75
         'Egulias\\EmailValidator\\' => 
         array (
             0 => __DIR__ . '/..' . '/egulias/email-validator/EmailValidator',
-        ),
-        'Drupal\\csv_importer\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/contrib/csv_importer/src',
         ),
         'Drupal\\Driver\\' => 
         array (

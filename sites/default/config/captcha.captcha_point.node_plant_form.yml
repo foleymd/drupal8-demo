@@ -1,7 +1,0 @@
-uuid: 46dc0c39-bc6d-48fa-a546-d8c00d35aa2a
-langcode: en
-status: false
-dependencies: {  }
-formId: node_plant_form
-captchaType: default
-label: null
