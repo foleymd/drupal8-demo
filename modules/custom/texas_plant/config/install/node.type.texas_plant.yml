@@ -1,0 +1,16 @@
+# node.type.texas_plant.yml
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - texas_plant
+_core:
+  default_config_hash: LDIpGRHgrJqM4VFIs6I5-m_zBn4b7EeUCMtRuwokTR0
+name: 'Texas Plant'
+type: texas_plant
+description: 'Content type that can be used to provide additional information on <em>Texas Plants</em>'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

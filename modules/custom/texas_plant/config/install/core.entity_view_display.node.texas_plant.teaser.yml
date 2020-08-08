@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.texas_plant.field_tp_care_instructions
+    - field.field.node.texas_plant.field_tp_description
+    - field.field.node.texas_plant.field_tp_latin_name
+    - field.field.node.texas_plant.field_tp_plant_image
+    - node.type.texas_plant
+  module:
+    - user
+_core:
+  default_config_hash: wYRX4myXqn6m3pxpmg1gWaEuuXqOnWdoAZx_Yat1nyw
+id: node.texas_plant.teaser
+targetEntityType: node
+bundle: texas_plant
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_tp_care_instructions: true
+  field_tp_description: true
+  field_tp_latin_name: true
+  field_tp_plant_image: true
