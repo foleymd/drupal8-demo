@@ -1,0 +1,28 @@
+schemas:
+  bootstrap: 8000
+_core:
+  default_config_hash: 1uFogeFphl0Hg6oVCacZZ8mM_0wMZ7PS_RrmLbK5tf0
+favicon:
+  mimetype: image/png
+  path: 'public://favicon-32x32_0.png'
+  url: 'https://dev-texas-plants.pantheonsite.io/themes/contrib/bootstrap/favicon.ico'
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://favicon-32x32.png'
+  url: ''
+  use_default: false
+table_responsive: '-1'
+breadcrumb: '2'
+navbar_position: fixed-bottom
+cdn_theme: bootstrap
+cdn_cache_ttl_versions: '604800'
+cdn_cache_ttl_themes: '604800'
+cdn_cache_ttl_assets: '0'
+cdn_cache_ttl_library: '0'
+reset_http_request_cache: ''
+table: ''

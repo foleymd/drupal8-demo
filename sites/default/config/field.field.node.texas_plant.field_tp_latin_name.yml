@@ -1,0 +1,21 @@
+uuid: afbc7713-6492-4d32-8989-627c6b1131d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_latin_name
+    - node.type.texas_plant
+  module:
+    - text
+id: node.texas_plant.field_tp_latin_name
+field_name: field_tp_latin_name
+entity_type: node
+bundle: texas_plant
+label: 'Latin Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

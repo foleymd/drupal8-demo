@@ -1,0 +1,17 @@
+schemas:
+  bootstrap: 8000
+  texas_plants: 8000
+favicon:
+  mimetype: image/png
+  path: 'public://favicon-32x32_0.png'
+  url: 'http://localhost:32922/sites/default/files/favicon-32x32_0.png'
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://favicon-32x32.png'
+  url: ''
+  use_default: false

@@ -1,0 +1,21 @@
+uuid: 15ef9609-b4dd-402e-bb97-f109674cfd02
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tp_care_instructions
+    - node.type.texas_plant
+  module:
+    - text
+id: node.texas_plant.field_tp_care_instructions
+field_name: field_tp_care_instructions
+entity_type: node
+bundle: texas_plant
+label: 'Care Instructions'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
