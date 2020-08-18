@@ -2,3 +2,28 @@
  * If using a CSS pre-processor, tell it to overwrite this file. If not, place
  * your custom CSS modifications here.
  */
+
+.navbar-default
+ {
+  background-color: #3c1053;
+  color: #ffffff;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.name.navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #e0d9fc;
+}
+
+.texas-plant-image {
+  float:left;
+  padding: 1rem 1rem 1rem 0rem;
+}
+
+.texas-plant-body {
+  font-size: 1.625rem;
+}

@@ -5,6 +5,13 @@ dependencies:
   enforced:
     module:
       - texas_plant
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
 _core:
   default_config_hash: LDIpGRHgrJqM4VFIs6I5-m_zBn4b7EeUCMtRuwokTR0
 name: 'Texas Plant'
@@ -13,4 +20,4 @@ description: 'Content type that can be used to provide additional information on
 help: ''
 new_revision: false
 preview_mode: 1
-display_submitted: true
+display_submitted: false
